@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/07897f4c2c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 class="title brightRed m-100">My todo List</h1>
+
+    <div class="form-container">
+      <input type="text" placeholder="Type here..." class="mainInput" />
+      <button class="button button-add">Add To List</button>
+    </div>
+
+    <div class="listContainers">
+      <div class="listRoot">
+        <h1>All Tasks</h1>
+        <ul class="allList"></ul>
+      </div>
+
+      <div class="listRoot">
+        <h1>Completed Tasks</h1>
+        <ul class="completedList"></ul>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
